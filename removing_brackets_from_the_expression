@@ -1,0 +1,4 @@
+input=input("enter any string")
+output=input.replace('(','').replace(')','')
+print(output)
+
