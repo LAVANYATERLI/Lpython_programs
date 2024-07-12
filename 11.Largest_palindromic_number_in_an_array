@@ -1,0 +1,4 @@
+def largest_palindromic_number(arr):
+    palindromic_numbers = [num for num in arr if str(num) == str(num)[::-1]]
+    return max(palindromic_numbers, default=-1)
+print(largest_palindromic_number([1, 232, 54545, 999991]))
